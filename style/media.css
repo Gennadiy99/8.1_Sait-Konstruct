@@ -1,0 +1,139 @@
+/* media */
+@media screen and (max-width: 992px) {
+  .story {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .services {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .build {
+    padding-top: 10px;
+  }
+  .navbar-flex {
+    justify-content: space-around;
+  }
+  .item-contact {
+    max-width: 175px;
+    width: 100%;
+  }
+  .footer-flex {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 905px) {
+  .footer-flex {
+    flex-wrap: wrap;
+  }
+  .story-box {
+    display: flex;
+    gap: 80.92px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-flex {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
+  .services-flex {
+    display: flex;
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .services-item1 {
+    margin-right: 15px;
+  }
+  .services-line {
+    margin: 5px auto;
+  }
+  .services-p {
+    padding-bottom: 10px;
+  }
+  .newsletter-flex {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 536px) {
+  .story-box-flex {
+    flex-direction: column;
+  }
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+  }
+  .footer-flex {
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .item-compani {
+    margin-right: 0;
+    text-align: center;
+  }
+  .item-icon-flex {
+    align-self: center;
+  }
+}
+@media screen and (max-width: 480px) {
+  .navbar-menu {
+    gap: 16px;
+  }
+  .services-grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header-h1{
+    font-size: 28px;
+  }
+  .build-h2 {
+    font-size: 28px;
+    padding-top: 86px;
+  }
+  .newsletter-h2 {
+    font-size: 20px;
+  }
+  .newsletter-input {
+    font-size: 12px;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .navbar__mobile {
+    display: block;
+  }
+  .serv-grid-item img {
+    display: block;
+    margin: 0 auto;
+  }
+  .item-link {
+    margin-right: 0;
+  }
+  .item-contact {
+    text-align: center;
+  }
+  .item-contact .footer-link {
+    margin-right: 0;
+  }
+  .footer-bottom {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}

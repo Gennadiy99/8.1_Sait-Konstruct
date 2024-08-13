@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8.1 Konstruct</title>
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/media.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- OГРАНИЧИВАЕТ ШИРИНУ САЙТА 1440px-->
+      <header class="header" id="header">
+        <img class="headr-img" src="imges/header-logo.svg" alt="" />
+        <h1 class="header-h1">PARTNER WITH KONSTUCT</h1>
+        <p class="header-p">An award-winning construction management firm</p>
+        <p class="header-text">SCROLL DOWN</p>
+      </header>
+      <section class="navbar">
+        <div class="container-inner">
+          <div class="navbar-flex">
+            <img class="navbar-logo" src="imges/navbar-logo.svg" alt="" />
+            <ul class="navbar-menu">
+              <li><a href="#header">HOME</a></li>
+              <li><a href="#story">ABOUT</a></li>
+              <li><a href="#services">SERVICES</a></li>
+              <li><a href="#build">WORK</a></li>
+              <li><a href="#contact">CONTACT</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- menu for mobile version -->
+      <select class="navbar__mobile" name="mob-menu" id="menu">
+        <option value="">select page</option>
+        <option value="#header">HOME</option>
+        <option value="#story">ABOUT</option>
+        <option value="#services">SERVICES</option>
+        <option value="#build">WORK</option>
+        <option value="#contact">CONTACT</option>
+      </select>
+      <section class="story" id="story">
+        <div class="container-inner">
+          <h2 class="story_h2">OUR STORY</h2>
+          <div class="story__line"></div>
+          <div class="story-box">
+            <div class="story-box-text">
+              <h3 class="box-text">
+                Founded in 2011 by John Mathew Smith,
+                <span class="box-text__color">Konstruct</span> has become the
+                number one construction management firm
+              </h3>
+              <p class="box-p">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat. Lorem ipsum dolor sit amet, consectetuer
+                adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                laoreet dolore magna aliquam erat.
+              </p>
+            </div>
+            <div class="story-box-flex">
+              <img src="imges/story-img1.png" alt="" />
+              <img src="imges/story-img2.png" alt="" />
+              <img src="imges/story-img3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container-inner">
+          <div class="services-flex">
+            <div class="services-item1">
+              <h2 class="services-h2">OUR CAPABILITIES</h2>
+              <div class="services-line"></div>
+            </div>
+            <p class="services-p">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat.
+            </p>
+            <button class="services-btn">ALL SERVICES</button>
+          </div>
+          <div class="services-grid">
+            <div class="serv-grid-item">
+              <img src="imges/serv-img1.svg" alt="icon" />
+              <h3 class="services-h3">PROJECT AND CONSTRUCTION MANAGEMENT</h3>
+              <p class="services-grid__p">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+            <div class="serv-grid-item">
+              <img src="imges/serv-img2.svg" alt="icon" />
+              <h3 class="services-h3">STRUCTURE AUDIT AND MAINTENANCE</h3>
+              <p class="services-grid__p">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+            <div class="serv-grid-item">
+              <img src="imges/serv-img3.svg" alt="icon" />
+              <h3 class="services-h3">FACTORY CONSTRUCTION AND MODELING</h3>
+              <p class="services-grid__p">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="build" id="build">
+        <div class="build-box-img">
+          <h2 class="build-h2">Want to build something amazing?</h2>
+          <button class="build-btn" type="button">GET IN TOUCH</button>
+        </div>
+      </section>
+      <section class="newsletter">
+        <div class="container-newsletter">
+          <div class="newsletter-flex">
+            <h2 class="newsletter-h2">Newsletter Signup</h2>
+            <div class="newsletter-item2">
+              <input
+                class="newsletter-input"
+                type="text"
+                placeholder="test@youremail.com"
+              />
+              <button class="newsletter-btn" type="button">SIGNUP</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer" id="contact">
+        <div class="container-inner">
+          <div class="footer-flex">
+            <div class="item-compani">
+              <h3 class="footer-h3">COMPANY</h3>
+              <img class="footer-logo" src="imges/header-logo.svg" alt="logo" />
+              <p class="footer-p">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                aliquam erat.
+              </p>
+            </div>
+            <div class="item-link">
+              <h4 class="item-link__h4">LINKS</h4>
+              <div class="link-flex">
+                <div class="flex-item__1">
+                  <a href="#" class="footer-link">HOME</a>
+                  <a href="#" class="footer-link">ABOUT</a>
+                  <a href="#" class="footer-link">SERVICES</a>
+                  <a href="#" class="footer-link">PROJECTS</a>
+                  <a href="#" class="footer-link">CONTACT US</a>
+                </div>
+                <div class="flex-item__2">
+                  <a href="#" class="footer-link">FAQ</a>
+                  <a href="#" class="footer-link">TERMS</a>
+                  <a href="#" class="footer-link">CAREERS</a>
+                </div>
+                <div class="flex-item__3">
+                  <a href="#" class="footer-link"> BLOG </a>
+                  <a href="#" class="footer-link"> PARTNERS</a>
+                  <a href="#" class="footer-link">NEWS</a>
+                </div>
+              </div>
+            </div>
+            <div class="item-contact">
+              <h3 class="footer-h3">CONTACT US</h3>
+              <p class="footer-p">
+                213 Baker Street <br />
+                Oriel City Kounty<br />
+                7000 KNW,<br />
+                Kountry Name<br />
+              </p>
+              <a href="tel:+23 994 233 4022" class="footer-link">+23 994 233 4022</a>
+              <a href="mailto:info@konstruct.com?subject=Вопрос&body=Здраствуйте" class="footer-link"> info@konstruct.com</a>
+            </div>
+            <div class="item-icon-flex">
+              <a href="#"><img src="imges/icon-Face.png" alt="icon" /></a>
+              <a href="#"><img src="imges/icon-Tweeter.png" alt="icon" /></a>
+              <a href="#"><img src="imges/icon-Google.png" alt="icon" /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <section class="footer-bottom">
+        <p class="footer-p bottom__p">
+          © 2017 Konstruct Inc. Designed by Jane Kathryn Teo
+        </p>
+      </section>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
