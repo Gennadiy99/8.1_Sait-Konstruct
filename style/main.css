@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap");
 
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
 html {
   box-sizing: border-box;
 }
@@ -48,6 +59,7 @@ li {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  animation: moveBackground 20s linear infinite;
 }
 .headr-img {
   display: block;
