@@ -265,6 +265,7 @@ li {
   height: 499px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 .build-h2 {
   display: block;
