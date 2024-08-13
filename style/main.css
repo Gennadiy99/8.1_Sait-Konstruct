@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -11,6 +13,7 @@ html {
   --second-family: "BebasNeueBold", sans-serif;
 }
 body {
+  font-family: "Open Sans", sans-serif;
   margin: 0;
 }
 h1,
@@ -388,8 +391,8 @@ li {
   color: #fff;
   display: block;
 }
-.footer-link:hover{
-  color: #00A4E5;
+.footer-link:hover {
+  color: #00a4e5;
 }
 .item-contact {
 }
@@ -401,8 +404,8 @@ li {
   color: #fff;
   margin-right: 68px;
 }
-.item-contact .footer-link:hover{
-  color: #00A4E5;
+.item-contact .footer-link:hover {
+  color: #00a4e5;
 }
 .item-icon-flex {
   padding-top: 26px;
@@ -411,8 +414,8 @@ li {
   justify-content: space-between;
   width: 87px;
 }
-.item-icon-flex > a:hover{
-  background-color: #00A4E5;
+.item-icon-flex > a:hover {
+  background-color: #00a4e5;
 }
 .footer-bottom {
   height: 60px;
